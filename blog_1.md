@@ -1,0 +1,7 @@
+---
+layout: default
+title: "226 Scouting"
+---
+![Scout meeting](https://cbc-scouts-226.s3.amazonaws.com/sample.jpg){:class="photo"} <br><br><br>
+Our McGimsey Camping Trip! <br><br>
+We had loads of fun at McGimsey! We arrived there on friday night set up tents, got out patrol boxes, and each patrol had a small dinner mainly consisting of things like crackers and peanut butter. Saturday morning the patrols got up and made breakfast! A few of the patrols did pancakes and sausages but of course each patrol planned their own meals so there was lots of variety. Once done with breakfast Travis, our senior patrol leader, had the newest patrol split up and work with some of the older scouts to learn fire saftey, knife saftey, and work in the axe yard! The older scouts did an awesome job teaching the younger scouts. Then the scouts did some conservation by cutting down the invading bamboo, trimming tree's, and  and after that Travis had the patrols take a lunch break. 
