@@ -13,4 +13,4 @@ Join our Troop by contacting Danny Petzold at: <cbcscouts@gmail.com>
 ![Scouts camping](https://cbc-scouts-226.s3.amazonaws.com/mcgimsey.jpeg){:class="blog_photo"}
 #####  May 14, 2021 <br>
 #### Campout at McGimsey
-We had a great campout at McGimsey and had lots of fun cooking, setting up tents, and teahcing the new patrol how to make fires and use wood tools. We hope to see you on our next campout and if you want to learn more about our fun time click [here](blog_1.html)
+We had a great campout at McGimsey and had lots of fun cooking, setting up tents, and teaching the new patrol how to make fires and use wood tools. We hope to see you on our next campout and if you want to learn more about our fun time click [here](blog_1.html)
