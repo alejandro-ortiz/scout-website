@@ -1,3 +1,3 @@
 url: "https://alejandro-ortiz.github.io/scout-website/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "scout-website" # the subpath of your site, e.g. /blog
+baseurl: "/scout-website" # the subpath of your site, e.g. /blog
 title: "CBC Scouting" # the name of your site, e.g. ACME Corp.
