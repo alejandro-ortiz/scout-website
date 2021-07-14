@@ -15,7 +15,7 @@ Scouts BSA program which is for Middle School and High School youth consists of 
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      {{ post.exerpt }}
+      {{ post.excerpt | stip_html }}
     </li>
   {% endfor %}
 </ul>
