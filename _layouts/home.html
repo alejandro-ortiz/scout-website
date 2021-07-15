@@ -35,8 +35,8 @@
     </div>
     <div id="main">
         {{ content }}
-        <h3>Posts</h3>
         <ul>
+            <h3>Posts</h3>
             {% for post in site.posts %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
