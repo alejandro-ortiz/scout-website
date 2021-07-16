@@ -97,7 +97,7 @@ blockquote{
 }
 
 .blog_photo{
-  float: left;
+  float:left;
   width: 20em;
   padding-right:1em;
 }
@@ -122,7 +122,7 @@ div#main{
   }
 @media only screen and (max-width: 7in){
   .blog_photo{
-      float: none;
+    float: none;
   }
   p{
     font-size: large;

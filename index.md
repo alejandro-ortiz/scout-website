@@ -1,12 +1,18 @@
 ---
-layout: home
+layout: default
 title: "226 Scouting"
 ---
 
 ![Scout meeting](https://cbc-scouts-226.s3.amazonaws.com/main_meeting.jpg){:class="photo"} <br>
-Scouts BSA program which is for Middle School and High School youth consists of two units – one for boys and another for girls. These groups prepare today’s young people to make good choices by focusing on character and leadership development, citizenship training, and personal fitness. We are looking forward to a fun year of Scouting! With Troop 226 boys, girls, or pack 226
-
-> Proverbs 2:26 Train up a child in the way they should go and when they are old they will not depart from it.
-
+Scouting <br>
+You may recognize scouts for "being prepared" or outdoorsy, but there is much more to it than that... The mission of scouting is to preparing youth for life! To prepare scouts to make good choices, the scouting program focuses on character development, leadership development, citizenship training, and personal fitness. Cub Scouts is for boys and girls in Kindergarten to 5th grade. Scouts BSA is for middle school and high school, and consists of two troops, one for boys and another for girls. During the school year, we meet Monday nights at 7:00.
 
 
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+</ul>
