@@ -1,0 +1,7 @@
+<div style="display:flex; padding-top:1em">
+    <div style="flex-grow:3">
+        <h3><a href="{{ include.url | relative_url }}">{{ include.title }} - {{ include.pretty_date }}</a></h3>
+    <p>{{ include.excerpt }}</p>
+    </div>
+    <img src="{{include.primary_image}}" alt="{{include.primary_image_alt}}" style="flex-grow:1" />
+</div>

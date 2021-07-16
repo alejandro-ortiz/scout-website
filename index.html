@@ -1,0 +1,32 @@
+---
+layout: default
+title: "226 Scouting"
+---
+
+<div style="display:flex">
+    <img src="https://cbc-scouts-226.s3.amazonaws.com/main_meeting.jpg" alt="Scout meeting" style="flex-grow:1; padding-right:20px" />
+    <div style="flex-grow:3">
+        <h2>Scouting</h2>
+
+        <p>You may recognize scouts for "being prepared" or outdoorsy, but there is much more to it than that... The
+            mission of scouting is to preparing youth for life! To prepare scouts to make good choices, the scouting
+            program focuses on character development, leadership development, citizenship training, and personal
+            fitness. Cub Scouts is for boys and girls in Kindergarten to 5th grade. Scouts BSA is for middle school and
+            high school, and consists of two troops, one for boys and another for girls. During the school year, we meet
+            Monday nights at 7:00.</p>
+    </div>
+
+
+</div>
+<ul>
+{% for post in site.posts limit:3 %}
+{% include post_snippet.html 
+    title=post.title 
+    url=post.url 
+    pretty_date=post.pretty_date 
+    excerpt=post.excerpt
+    primary_image=post.primary_image
+    primary_image_alt=post.primary_image_alt
+%}
+{% endfor %}
+</ul>

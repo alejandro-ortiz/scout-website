@@ -1,6 +1,10 @@
 ---
-layout: default
-title: "June 6 2021"
+layout: post
+title: Philmont Backpacking Expedition
+pretty_date: June 6, 2021
+primary_image: https://via.placeholder.com/150
+primary_image_small: 
+primary_image_alt: Philmont
 ---
-![Philmont](https://cbc-scouts-226.s3.amazonaws.com/.jpg){:class="blog_photo"} <br><br><br>
-Our Philmont Camping trip <br><br>
+
+Great content to be provided here
