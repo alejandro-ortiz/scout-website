@@ -84,7 +84,7 @@ blockquote{
 
 .blog_photo{
   float:left;
-  width: 20em;
+  width: 100%;
   padding-right:1em;
 }
 
@@ -201,7 +201,7 @@ div#main{
   html {
     font-size: 62.5%; }
   body {
-    font-size: 4.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -494,9 +494,6 @@ div#main{
   
   /* Larger than tablet */
   @media (min-width: 750px) {
-    body{
-      font-size: 2em;
-    }
   }
   
   /* Larger than desktop */
@@ -507,11 +504,10 @@ div#main{
   @media (min-width: 1200px) {
   }
 
-  /* Smaller than tablet */
-  @media (max-width: 750px) {
+  /* Smaller than desktop */
+  @media (max-width: 1000px) {
     .smaller-than-tablet-stacked{
       width: 100% !important;
       margin-left: 0;
     }
   }
-  
