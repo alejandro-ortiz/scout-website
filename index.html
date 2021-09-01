@@ -3,21 +3,21 @@ layout: default
 title: "226 Scouting"
 ---
 
-<div style="display:flex">
-    <img src="https://cbc-scouts-226.s3.amazonaws.com/main_meeting.jpg" alt="Scout meeting" style="flex-grow:1; padding-right:20px" />
-    <div style="flex-grow:3">
-        <h2>Scouting</h2>
 
-        <p>You may recognize scouts for "being prepared" or outdoorsy, but there is much more to it than that. The
-            mission of scouting is to preparing youth for life! To prepare scouts to make good choices, the scouting
-            program focuses on character development, leadership development, citizenship training, and personal
-            fitness. Our scouting units are blessed to be part of Community Bible Church... so preparing youth for
-            life definitely includes their eternal life! Scouting provides a great opportunity to practice and
-            discuss our duty to God.</p>
-    </div>
+<img src="https://cbc-scouts-226.s3.amazonaws.com/main_meeting.jpg" alt="Scout meeting" style="flex-grow:1; padding-right:20px" class="photo" style="display: flex;"/>
+<div style="flex-grow:3" style="display: flex;">
+    <h2>Scouting</h2>
 
-
+    <p>You may recognize scouts for "being prepared" or outdoorsy, but there is much more to it than that. The
+        mission of scouting is to preparing youth for life! To prepare scouts to make good choices, the scouting
+        program focuses on character development, leadership development, citizenship training, and personal
+        fitness. Our scouting units are blessed to be part of Community Bible Church... so preparing youth for
+        life definitely includes their eternal life! Scouting provides a great opportunity to practice and
+        discuss our duty to God.</p>
 </div>
+
+
+
 <ul>
 {% for post in site.posts limit:3 %}
 {% include post_snippet.html 

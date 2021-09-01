@@ -1,7 +1,11 @@
-<div style="display:flex; padding-top:1em">
-    <div style="flex-grow:3">
-        <h3><a href="{{ include.url | relative_url }}">{{ include.title }} - {{ include.pretty_date }}</a></h3>
-    <p>{{ include.excerpt }}</p>
+<div class="container">
+    <div class="row" style="padding-top:1em">
+        <div class="eight columns smaller-than-tablet-stacked">
+            <h3><a href="{{ include.url | relative_url }}">{{ include.title }} - {{ include.pretty_date }}</a></h3>
+        <p>{{ include.excerpt }}</p>
+        </div>
+        <div class="four columns smaller-than-tablet-stacked">
+            <img src="{{include.primary_image}}" alt="{{include.primary_image_alt}}" />
+        </div>
     </div>
-    <img src="{{include.primary_image}}" alt="{{include.primary_image_alt}}" style="flex-grow:1" />
 </div>

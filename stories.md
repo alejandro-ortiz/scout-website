@@ -4,7 +4,6 @@ title: "226 Scouting"
 ---
 
 <ul>
-    These are the stories and adventures our scouts have gone on from their campouts and service projects
 {% for post in site.posts %}
 {% include post_snippet.html 
     title=post.title 
