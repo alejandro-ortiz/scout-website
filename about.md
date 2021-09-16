@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "226 Scouting"
 ---
 
 Scouts is a worldwide movement, formed over a hundred years ago. The mission is

@@ -2,11 +2,10 @@
 <html>
 
 <head>
-
     <title>226 scouting</title>
-    <meta name="keywords" content="troop 226, girls troop 226, boys troop 226, pack 226, troop, pack, 226, scouts, scouting, scout website, troop website, Alex Ortiz">
+    <meta name="keywords" content="troop 226, troop 226g, pack 226, troop, pack, 226, 226g, scouts, scouting, cbc">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link  rel="stylesheet" text="text/scss" href="{{ site.baseurl }}/assets/css/main.css">
+    <link  rel="stylesheet" text="text/scss" href="{{site.baseurl}}/assets/css/main.css">
 </head>
 
 <body>
@@ -14,30 +13,30 @@
         <header class="main-header">
             <div class="locked-container">
                 <a href="https://www.scouting.org/" target="_blank">
-                    <img src="https://cbc-scouts-226.s3.amazonaws.com/logo.png" height="50" width="50" class="logo">
+                    <img src="{{site.imageurl}}/logo.png" height="50" width="50" class="logo">
                 </a>
-                <h1 id="title">226 Scouting</h1>
+                <h1 id="title">{{page.title | default: "Scouts 226"}}</h1>
             </div>
         </header>
         <nav class="navbar">
             <div class="locked-container">
                 <ul>
-                    <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/about">About Us</a></li>
-                    <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
-                    <li><a href="{{ site.baseurl }}/stories">Stories</a></li>
+                    <li><a href="{{site.baseurl}}/">Home</a></li>
+                    <li><a href="{{site.baseurl}}/about">About Us</a></li>
+                    <li><a href="{{site.baseurl}}/contact">Contact Us</a></li>
+                    <li><a href="{{site.baseurl}}/stories">Stories</a></li>
                 </ul>
             </div>
         </nav>
     </div>
     <div id="main">
         <div class="container">
-            {{ content }}
+            {{content}}
         </div>
     </div>
     <div id="footer">
         <p class="copy">Copyright &copy; 2021</p>
-        <img class="footer" src="https://cbc-scouts-226.s3.amazonaws.com/scout_footer.jpg">
+        <img class="footer" src="{{site.imageurl}}/scout_footer.jpg">
     </div>
 </body>
 

@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "226 Scouting"
 ---
 
 <ul>
