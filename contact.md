@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Welcome to Troop 226 we meet at meets at [CBC] in San Antonio, Texas. We welcome
-new scouts, boys, and girls to our Troop where we have meetings on Mondays from
+Welcome to Troop 226 or pack 226 we meet at [CBC] in San Antonio, Texas. We welcome
+new scouts, boys, and girls to our unit where we have meetings on Mondays from
 7:00-8:00 at CBC. Our patrols work together and talk about what activities they
 want to do and their patrol leaders talk to adults and other scouts to help
 organize those events. Find out more about our Troop by contacting
