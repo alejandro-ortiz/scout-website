@@ -16,6 +16,9 @@ ul a {
   color: #ffffff;
   font-size: 0.7em;
 }
+#title{
+  margin-top: 7px;
+}
 h1 {
   font-size: 1em;
 }
@@ -30,7 +33,6 @@ h2 {
 .main-header {
   background-color: #003f87;
   color: #ffffff;
-  width: 100%;
 }
 .main-header h1{
   margin-bottom: 0;
@@ -39,7 +41,6 @@ h2 {
   background-color: #ce1126;
   color: #ffffff;
   padding-bottom: 0px;
-  width: 100%;
 }
 .navbar ul {
   padding: 0;
@@ -79,16 +80,11 @@ blockquote p {
 }
 .blog_photo {
   float: left;
-  width: 100%;
   padding-right: 1em;
 }
 .photo {
   float: none;
-  width: 100%;
   margin: 1em;
-}
-.main_blog_photo {
-  width: 100%;
 }
 .copy {
   padding-top: 300px;
@@ -96,7 +92,5 @@ blockquote p {
   text-align: center;
 }
 .footer {
-  height: 100%;
-  width: 100%;
   display: grid;
 }
