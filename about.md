@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 Scouts is a worldwide movement, formed over a hundred years ago. The mission is
 "to contribute to the education of young people, through a value system based on
 the Scout Promise and Scout Law, to help build a better world where people are

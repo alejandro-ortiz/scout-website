@@ -471,6 +471,12 @@ div#main {
     there.
     */
     /* mobile */
+  @media (min-width: 300px){
+    .container {
+      width: 85%;
+      padding: 0;
+    }
+  }
   .blog_photo {
     float: none;
   }
@@ -479,9 +485,16 @@ div#main {
   }
   @media (max-width: 550px) {
     .logo {
-      padding-top: 15px;
       height: 25px;
       width: 25px;
+      display: none;
+    }
+    .photo{
+      margin: 0;
+    }
+    .main-header h1{
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
   }
   /* Larger than tablet */

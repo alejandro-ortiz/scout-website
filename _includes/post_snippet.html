@@ -1,11 +1,9 @@
-<div class="container">
-    <div class="row" style="padding-top:1em">
-        <div class="eight columns smaller-than-tablet-stacked">
-            <h3><a href="{{include.url | relative_url}}">{{include.title}} - {{include.pretty_date}}</a></h3>
-        <p>{{include.excerpt}}</p>
-        </div>
-        <div class="four columns smaller-than-tablet-stacked">
-            <img src="{{site.imageurl}}/{{include.primary_image}}" alt="{{include.primary_image_alt}}" class="blog_photo"/>
-        </div>
+<div class="row" style="padding-top:1em">
+    <div class="eight columns smaller-than-tablet-stacked">
+        <h3><a href="{{include.url | relative_url}}">{{include.title}} - {{include.pretty_date}}</a></h3>
+    <p>{{include.excerpt}}</p>
+    </div>
+    <div class="four columns smaller-than-tablet-stacked">
+        <img src="{{site.imageurl}}/{{include.primary_image}}" alt="{{include.primary_image_alt}}" class="blog_photo"/>
     </div>
 </div>
